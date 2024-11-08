@@ -1,0 +1,15 @@
+import turtle
+model=5
+k=0
+turtle.speed(0)
+turtle.colormode(255)
+turtle.pencolor(255,0,0)
+while k<=10:
+	i=0
+	while i < model:
+		turtle.forward(100)
+		turtle.right(360/model)
+		i = i+1
+	turtle.right(360/10)
+	k=k + 1
+turtle.done()
